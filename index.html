@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wow Flower</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__contant">
+        <div class="header__menu">
+          <a class="header__logo" href="#">
+            <svg width="166" height="50">
+              <use xlink:href="images/sprite.svg#logo"></use>
+            </svg>
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__items"><a class="menu__link" href="#">Популярне</a></li>
+              <li class="menu__items"><a class="menu__link" href="#">Каталог</a></li>
+              <li class="menu__items"><a class="menu__link" href="#">Про нас</a></li>
+              <li class="menu__items"><a class="menu__link" href="#">Відгуки</a></li>
+              <li class="menu__items"><a class="menu__link" href="#">Контакти</a></li>
+            </ul>
+          </nav>
+          <button class="header__menu-mobilebtn">
+            <span></span>
+          </button>
+        </div>
+        <h1 class="header__title">Твій букет все скаже за тебе</h1>
+        <p class="header__text">Радуйте близьких з будь-якого приводу</p>
+        <a class="header__order-btn" href="#">Замовити букет</a>
+      </div>
+      <picture class="header__img">
+        <source srcset="images/header__decor.avif" type="image/avif">
+        <source srcset="images/header__decor.webp" type="image/webp">
+        <img src="images/header__decor.jpg" alt="decor IMG">
+      </picture>
+    </div>
+   
+  </header> 
+<main class="main">
+   <div class="sub-discount">
+      <h2 class="sub-discount__title title-sb">
+        Підпишись і отримай 10% знижки на перше замовлення
+      </h2>
+      <p class="sub-discount__text">
+        Отримуйте цікаві ідеї для подарунків до кожного свята і корисні поради щодо догляду за квітами
+      </p>
+      <form class="sub-discount__form">
+        <input class="sub-discount__email" type="email" placeholder="Email" required>
+        <a class="sub-discount__link" href="#">Підписатись</a>
+      </form>
+    </div>
+  <section class="popular">
+    <div class="container">
+      <h1 class="popular__title title-sb">Популярне</h1>
+      <div class="popular__swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="images/bouquet-1.avif" type="image/avif">
+              <source srcset="images/bouquet-1.webp" type="image/webp">
+              <img src="images/bouquet-1.jpg" alt="Alt text">
+            </picture>
+            <div class="bouquet">
+              <div class="bouquet__contant">
+                <p class="bouquet__name">Фантазія</p>
+                <p class="bouquet__category">троянди, альпийські квіти</p>
+              </div>
+              <a class="bouquet__more" href="#">Більше</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="images/bouquet-2.avif" type="image/avif">
+              <source srcset="images/bouquet-2.webp" type="image/webp">
+              <img src="images/bouquet-2.jpg" alt="Alt text">
+            </picture>
+            <div class="bouquet">
+              <div class="bouquet__contant">
+                <p class="bouquet__name">Гармонія</p>
+                <p class="bouquet__category">троянди, гіперікум</p>
+              </div>
+              <a class="bouquet__more" href="#">Більше</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="images/bouquet-3.avif" type="image/avif">
+              <source srcset="images/bouquet-3.webp" type="image/webp">
+              <img src="images/bouquet-3.jpg" alt="Alt text">
+            </picture>
+            <div class="bouquet">
+              <div class="bouquet__contant">
+                <p class="bouquet__name">Ніжність</p>
+                <p class="bouquet__category">троянди, лізіантус</p>
+              </div>
+              <a class="bouquet__more" href="#">Більше</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="images/bouquet-1.avif" type="image/avif">
+              <source srcset="images/bouquet-1.webp" type="image/webp">
+              <img src="images/bouquet-1.jpg" alt="Alt text">
+            </picture>
+            <div class="bouquet">
+              <div class="bouquet__contant">
+                <p class="bouquet__name">Фантазія</p>
+                <p class="bouquet__category">троянди, альпийські квіти</p>
+              </div>
+              <a class="bouquet__more" href="#">Більше</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="images/bouquet-2.avif" type="image/avif">
+              <source srcset="images/bouquet-2.webp" type="image/webp">
+              <img src="images/bouquet-2.jpg" alt="Alt text">
+            </picture>
+            <div class="bouquet">
+              <div class="bouquet__contant">
+                <p class="bouquet__name">Гармонія</p>
+                <p class="bouquet__category">троянди, гіперікум</p>
+              </div>
+              <a class="bouquet__more" href="#">Більше</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="images/bouquet-3.avif" type="image/avif">
+              <source srcset="images/bouquet-3.webp" type="image/webp">
+              <img src="images/bouquet-3.jpg" alt="Alt text">
+            </picture>
+            <div class="bouquet">
+              <div class="bouquet__contant">
+                <p class="bouquet__name">Ніжність</p>
+                <p class="bouquet__category">троянди, лізіантус</p>
+              </div>
+              <a class="bouquet__more" href="#">Більше</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="arrow bouquet-button-prev">
+          <svg width="30" height="44">
+            <use xlink:href="images/sprite.svg#arrow-prev"></use>
+          </svg>
+        </div>
+        <div class="arrow bouquet-button-next">
+          <svg width="30" height="44">
+            <use xlink:href="images/sprite.svg#arrow-next"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="promo">
+    <h1 class="promo__title title-sb">
+      Замовляй букет на день народження зі знижкою 15 %
+    </h1>
+    <a class="promo__btn" href="#">
+      Детально
+    </a>
+  </section>
+  <section class="catalog">
+    <div class="container">
+      <h1 class="catalog__title title-sb">Каталог</h1>
+      <div class="catalog__swiper">
+        <div class="swiper-wrapper">
+          <div class="catalog__slide swiper-slide">
+            <picture>
+              <source srcset="images/bouquet-1.avif" type="image/avif">
+              <source srcset="images/bouquet-1.webp" type="image/webp">
+              <img src="images/bouquet-1.jpg" alt="Alt text">
+            </picture>
+            <div class="bouquet">
+              <div class="bouquet__contant">
+                <p class="bouquet__name">Фантазія</p>
+                <p class="bouquet__category">троянди, альпийські квіти</p>
+              </div>
+              <a class="bouquet__more" href="#">Більше</a>
+            </div>
+          </div>
+          <div class="catalog__slide swiper-slide">
+            <picture>
+              <source srcset="images/bouquet-2.avif" type="image/avif">
+              <source srcset="images/bouquet-2.webp" type="image/webp">
+              <img src="images/bouquet-2.jpg" alt="Alt text">
+            </picture>
+            <div class="bouquet">
+              <div class="bouquet__contant">
+                <p class="bouquet__name">Фантазія</p>
+                <p class="bouquet__category">троянди, альпийські квіти</p>
+              </div>
+              <a class="bouquet__more" href="#">Більше</a>
+            </div>
+          </div>
+          <div class="catalog__slide swiper-slide">
+            <picture>
+              <source srcset="images/bouquet-3.avif" type="image/avif">
+              <source srcset="images/bouquet-3.webp" type="image/webp">
+              <img src="images/bouquet-3.jpg" alt="Alt text">
+            </picture>
+            <div class="bouquet">
+              <div class="bouquet__contant">
+                <p class="bouquet__name">Фантазія</p>
+                <p class="bouquet__category">троянди, альпийські квіти</p>
+              </div>
+              <a class="bouquet__more" href="#">Більше</a>
+            </div>
+          </div>
+          <div class="catalog__slide swiper-slide">
+            <picture>
+              <source srcset="images/bouquet-1.avif" type="image/avif">
+              <source srcset="images/bouquet-1.webp" type="image/webp">
+              <img src="images/bouquet-1.jpg" alt="Alt text">
+            </picture>
+            <div class="bouquet">
+              <div class="bouquet__contant">
+                <p class="bouquet__name">Фантазія</p>
+                <p class="bouquet__category">троянди, альпийські квіти</p>
+              </div>
+              <a class="bouquet__more" href="#">Більше</a>
+            </div>
+          </div>
+          <div class="catalog__slide swiper-slide">
+            <picture>
+              <source srcset="images/bouquet-2.avif" type="image/avif">
+              <source srcset="images/bouquet-2.webp" type="image/webp">
+              <img src="images/bouquet-2.jpg" alt="Alt text">
+            </picture>
+            <div class="bouquet">
+              <div class="bouquet__contant">
+                <p class="bouquet__name">Фантазія</p>
+                <p class="bouquet__category">троянди, альпийські квіти</p>
+              </div>
+              <a class="bouquet__more" href="#">Більше</a>
+            </div>
+          </div>
+          <div class="catalog__slide swiper-slide">
+            <picture>
+              <source srcset="images/bouquet-3.avif" type="image/avif">
+              <source srcset="images/bouquet-3.webp" type="image/webp">
+              <img src="images/bouquet-3.jpg" alt="Alt text">
+            </picture>
+            <div class="bouquet">
+              <div class="bouquet__contant">
+                <p class="bouquet__name">Фантазія</p>
+                <p class="bouquet__category">троянди, альпийські квіти</p>
+              </div>
+              <a class="bouquet__more" href="#">Більше</a>
+            </div>
+          </div>
+          <div class="catalog__slide swiper-slide">
+            <picture>
+              <source srcset="images/bouquet-3.avif" type="image/avif">
+              <source srcset="images/bouquet-3.webp" type="image/webp">
+              <img src="images/bouquet-3.jpg" alt="Alt text">
+            </picture>
+            <div class="bouquet">
+              <div class="bouquet__contant">
+                <p class="bouquet__name">Фантазія</p>
+                <p class="bouquet__category">троянди, альпийські квіти</p>
+              </div>
+              <a class="bouquet__more" href="#">Більше</a>
+            </div>
+          </div>
+          <div class="catalog__slide swiper-slide">
+            <picture>
+              <source srcset="images/bouquet-3.avif" type="image/avif">
+              <source srcset="images/bouquet-3.webp" type="image/webp">
+              <img src="images/bouquet-3.jpg" alt="Alt text">
+            </picture>
+            <div class="bouquet">
+              <div class="bouquet__contant">
+                <p class="bouquet__name">Фантазія</p>
+                <p class="bouquet__category">троянди, альпийські квіти</p>
+              </div>
+              <a class="bouquet__more" href="#">Більше</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="catalog__arrow catalog__button-prev">
+          <svg width="30" height="44">
+            <use xlink:href="images/sprite.svg#arrow-prev"></use>
+          </svg>
+        </div>
+        <div class="catalog__arrow catalog__button-next">
+          <svg width="30" height="44">
+            <use xlink:href="images/sprite.svg#arrow-next"></use>
+          </svg>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <section class="managercall">
+    <h1 class="managercall__title title-sb">
+      Не знайшли відповідний букет?
+    </h1>
+    <p class="managercall__text">
+      Залиште свій номер телефону і наш менеджер зв’яжиться з Вами протягом 15 хвилин
+    </p>
+    <form class="managercall__form">
+      <input class="managercall__name" type="text" placeholder="Ім’я">
+      <input class="managercall__phone" type="text" placeholder="+ 38">
+      <button class="managercall__btn" type="submit">Відправити</button>
+    </form>
+  </section>
+  <section class="aboutus">
+    <div class="container">
+      <h1 class="aboutus__title title-sb">Про нас</h1>
+      <div class="aboutus__contant">
+        <div class="aboutus__item">
+          <p class="aboutus__text">
+            Наша команда складається з спеціалістів в області флористики і дизайну, продажів, логістики і маркетингу.
+          </p>
+          <p class="aboutus__text">
+            У нас панує особлива атмосфера, яка допомогає отримувати натхнення для створення нових шедеврів флористики,
+            дизайну й декора.
+          </p>
+          <p class="aboutus__text">
+            Ми любимо те, що робимо, і це ключовий показник нашого успіху. Любов до квітів і людей, відвертість емоцій і
+            вражень, палаючі очі - все це робить нас досконаліше день у день.
+          </p>
+        </div>
+        <picture>
+          <source srcset="images/aboutus-1.avif" type="image/avif">
+          <source srcset="images/aboutus-1.webp" type="image/webp">
+          <img src="images/aboutus-1.jpg" alt="About IMG">
+        </picture>
+      </div>
+      <div class="aboutus__contant">
+        <div class="aboutus__item">
+          <p class="aboutus__text">
+            У нас завжди представлений широкий асортимент квітів.
+          </p>
+          <p class="aboutus__text">
+            Наш каталог налічює багато десятків найменувань букетів, дуже гарних й гармонійних, які будуть чудово
+            виглядати в будь-якій оселі чи офісі. Окрім букетів, наші клієнти можуть придбати квіткові композиції у
+            вигляді декоративних кошиків, капелюшних коробок.
+          </p>
+          <p class="aboutus__text">
+            Також маємо “супутні” товари: м’які іграшки, кульки, шоколад.
+          </p>
+        </div>
+        <picture>
+          <source srcset="images/aboutus-2.avif" type="image/avif">
+          <source srcset="images/aboutus-2.webp" type="image/webp">
+          <img src="images/aboutus-2.jpg" alt="About IMG">
+        </picture>
+      </div>
+    </div>
+  </section>
+  <section class="reviews">
+    <div class="container">
+      <h1 class="reviews__title title-sb">ВІДГУКИ</h1>
+      <div class="reviews__swiper">
+        <div class="swiper-wrapper">
+          <div class="reviews__items swiper-slide">
+            <div class="reviews__item">
+              <picture class="reviews__avatar">
+                <source srcset="images/user-avatar.avif" type="image/avif">
+                <source srcset="images/user-avatar.webp" type="image/webp">
+                <img src="images/user-avatar.jpg" alt="IMG">
+              </picture>
+              <div class="reviews__box">
+                <p class="reviews__name">Аліна</p>
+                <ul class="reviews__rating-list">
+                  <li class="reviews__rating-items">
+                    <svg width="20" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="reviews__text">
+              “Все на вищому рівні!
+              Обов’язково звернусь до вас ще не один раз“.
+            </p>
+          </div>
+          <div class="reviews__items swiper-slide">
+            <div class="reviews__item">
+              <picture class="reviews__avatar">
+                <source srcset="images/user-avatar-2.avif" type="image/avif">
+                <source srcset="images/user-avatar-2.webp" type="image/webp">
+                <img src="images/user-avatar-2.jpg" alt="IMG">
+              </picture>
+              <div class="reviews__box">
+                <p class="reviews__name">Аліна</p>
+                <ul class="reviews__rating-list">
+                  <li class="reviews__rating-items">
+                    <svg width="20" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="reviews__text">
+              “Велике дякую! Іменинниця в захваті!Буду звертатись до вас“.
+            </p>
+          </div>
+          <div class="reviews__items swiper-slide">
+            <div class="reviews__item">
+              <picture class="reviews__avatar">
+                <source srcset="images/user-avatar-3.avif" type="image/avif">
+                <source srcset="images/user-avatar-3.webp" type="image/webp">
+                <img src="images/user-avatar-3.jpg" alt="IMG">
+              </picture>
+              <div class="reviews__box">
+                <p class="reviews__name">Надія</p>
+                <ul class="reviews__rating-list">
+                  <li class="reviews__rating-items">
+                    <svg width="20" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="reviews__text">
+              “Букет розкішний. Доставка вчасна. Ви справжні професіонали. Дякую!“
+            </p>
+          </div>
+          <div class="reviews__items swiper-slide">
+            <div class="reviews__item">
+              <picture class="reviews__avatar">
+                <source srcset="images/user-avatar-3.avif" type="image/avif">
+                <source srcset="images/user-avatar-3.webp" type="image/webp">
+                <img src="images/user-avatar-3.jpg" alt="IMG">
+              </picture>
+              <div class="reviews__box">
+                <p class="reviews__name">Надія</p>
+                <ul class="reviews__rating-list">
+                  <li class="reviews__rating-items">
+                    <svg width="20" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                    <svg width="30" height="20">
+                      <use xlink:href="images/sprite.svg#star"></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="reviews__text">
+              “Букет розкішний. Доставка вчасна. Ви справжні професіонали. Дякую!“
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <a class="footer__logo" href="#">
+    <svg width="250" height="75">
+      <use xlink:href="images/sprite.svg#logo"></use>
+    </svg>
+  </a>
+
+  <nav class="footer__menu">
+    <ul class="footer__menu-list">
+      <li class="footer__menu-items"><a class="menu__link" href="#">Популярне</a></li>
+      <li class="footer__menu-items"><a class="menu__link" href="#">Каталог</a></li>
+      <li class="footer__menu-items"><a class="menu__link" href="#">Про нас</a></li>
+      <li class="footer__menu-items"><a class="menu__link" href="#">Відгуки</a></li>
+      <li class="footer__menu-items"><a class="menu__link" href="#">Контакти</a></li>
+    </ul>
+  </nav>
+
+  <address class="address">
+    <div class="address__inner">
+      <p class="address__text">
+        Адреса: м. Дніпро , вул. Яворницького, 32
+      </p>
+      <p class="address__time">Години роботи: щоденно з 09:00 до 21:00</p>
+      <p class="address__phone">Телефон: + 3809301234567</p>
+      <p class="address__email">Email: fionaflower@gmail.com</p>
+    </div>
+    <div class="social">
+      <a class="social__mobile" href="#">
+        <svg width="24" height="24">
+          <use xlink:href="images/sprite.svg#social-mobile"></use>
+        </svg>
+      </a>
+      <a class="social__telegram" href="#">
+        <svg width="24" height="24">
+          <use xlink:href="images/sprite.svg#social-telegram"></use>
+        </svg>
+      </a>
+      <a class="social__instagram" href="#">
+        <svg width="24" height="24">
+          <use xlink:href="images/sprite.svg#social-instagram"></use>
+        </svg>
+      </a>
+    </div>
+  </address>
+</footer>
+<script src="js/main.min.js"></script>
+</body>
+
+</html>
